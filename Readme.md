@@ -11,3 +11,9 @@
 ###### What you mean by closure and hoisting?
 ###### difference bw ASYNC, await and Promise?
 ###### REACT: Suspence, Lazy Load, Error boundaries?
+###### Difference bw DOM and BOM in js?
+###### Event Loop?
+###### Difference between useState and useReducer?
+###### How to perform lifecycle methods in functional component?
+###### Event garbage collection?
+###### useEffect cleanup example?
