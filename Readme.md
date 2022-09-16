@@ -13,6 +13,8 @@
 ###### REACT: Suspence, Lazy Load, Error boundaries?
 ###### Difference bw DOM and BOM in js?
 ###### Event Loop?
+###### Event Bubbling and Capturing?
+###### Call, apply,bind and polyfills for each?
 ###### Difference between useState and useReducer?
 ###### Difference between state and props?
 ###### How to perform lifecycle methods in functional component?
