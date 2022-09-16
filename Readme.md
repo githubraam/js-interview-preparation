@@ -14,7 +14,14 @@
 ###### Difference bw DOM and BOM in js?
 ###### Event Loop?
 ###### Difference between useState and useReducer?
+###### Difference between state and props?
 ###### How to perform lifecycle methods in functional component?
 ###### Event garbage collection?
 ###### useEffect cleanup example?
+###### Event Loop online platform link [Online Eventloop platform](https://www.jsv9000.app/).
+
+
+## HTML AND CSS QUESTIONS
+###### Why we need Doctype declaration in html page? What happen if we not use doctype?
+###### How to make full screen equal column in bootstrap
 
