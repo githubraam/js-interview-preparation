@@ -20,6 +20,7 @@
 ###### How to perform lifecycle methods in functional component?
 ###### Event garbage collection?
 ###### useEffect cleanup example?
+###### what is function currying?
 ###### Event Loop online platform link [Online Eventloop platform](https://www.jsv9000.app/).
 
 
