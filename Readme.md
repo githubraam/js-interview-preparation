@@ -28,3 +28,22 @@
 ###### Why we need Doctype declaration in html page? What happen if we not use doctype?
 ###### How to make full screen equal column in bootstrap
 
+## Nagarro
+###### what is code splitting in reactjs?
+###### what is difference bw code spliting and lazy load?
+###### when do we prefere lazy load of our components?
+###### why do we use REACT-ROUTER?
+###### what are the latest chanages introduced in REACT-ROUTER?
+###### what is error boundary and can we implement it in reactjs?
+###### can we implement error boundary in functional component?
+###### Difference bw redux thunk and saga?
+###### why do we use Generator function?
+###### what will happen if call generator function without next()?
+###### how to delete all localstorage in one go?
+###### define diff techniques to create object?
+###### reason behind preferening Object.create method for creating Objects?
+
+### css
+###### new things in bootstrap 5?
+###### how can we add Sass in react project?
+###### why ::after and ::before call as psedo elements?
