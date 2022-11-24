@@ -9,16 +9,16 @@ If any programming language has the ability to treat functions as values, to pas
 
 Functions are very important and powerful in JavaScript. JavaScript has all those abilities or features that are required to be a language having First Class Functions, hence functions are treated as First Class Citizens. Let’s look at all the abilities of functions being a First Class Citizen.
 
-###### Ability to treat functions as values
-`<script>
+**Ability to treat functions as values**
+```<script>
   var greet = function() {
     console.log("Welcome to GeeksforGeeks!");
   }
   greet();
-</script>`
+</script>```
 
-###### Ability to pass a function as arguments
-`<script>
+**Ability to pass a function as arguments**
+```<script>
 function teacher(){
     return "Teacher";
 }
@@ -36,17 +36,17 @@ var message = greet(teacher);
   
 // Prints "Welcome Student" 
 var message = greet(student);
-</script>`
+</script>```
 
-###### Ability to return a function from another function
-`<script>
+**Ability to return a function from another function**
+```<script>
 var greet = function(){
     return function(){
     console.log("Welcome to GeeksforGeeks!");
     }
 }
 greet()();
-</script>`
+</script>```
 
 ###### Why REACT contributer suggest to use functional component instead of class component?
 ###### How to prevent rerender of component in REACT? Difference bw useCallback and useMemo hooks?
