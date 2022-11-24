@@ -3,7 +3,46 @@
 ###### What is Shadow DOM ? Give some example
 ###### what you mean by Virtual DOM?
 ###### Define HOC, Why we should use HOC.
-###### Define High order Function? why function are called first class citizen?
+## What is Pure Function?
+
+A Pure Function is a function (a block of code) that always returns the same result if the same arguments are passed. It does not depend on any state or data change during a program’s execution. Rather, it only depends on its input arguments.
+
+Also a pure function does not produce any observable side effects such as network requests or data mutation etc.
+
+**Let’s see the below JavaScript Function:**
+```
+function calculateGST( productPrice ) {
+    return productPrice * 0.05;
+}
+```
+The above function will always return the same result, if we pass the same productPrice. In other words, its output doesn’t get affected by any other values / state changes. So we can call “calculateGST” function a Pure Function.
+
+**Now, let’s see one more function below:**
+
+```
+var tax = 20;
+function calculateGST( productPrice ) {
+    return productPrice * (tax / 100) + productPrice;
+}
+```
+Pause a second and can you guess whether the above function is Pure or not ?
+
+If you guessed that it is isn’t, you are right! It is not a pure function as the output is dependent on an external variable “tax”. So if the tax value is updated somehow, then we will get a different output though we pass the same productPrice as a parameter to the function.
+
+But here we need to make an important note:
+
+Note: If a pure function calls a pure function, this isn’t a side effect and the calling function is still considered pure. (Example: using Math.max() inside a function)
+
+Below are some side effects (but not limited to) which a function should not produce in order to be considered as a pure function –
+
+* Making a HTTP request
+* Mutating data
+* Printing to a screen or console
+* DOM Query/Manipulation
+* Math.random()
+* Getting the current time
+
+## Define High order Function? why function are called first class citizen?
 
 If any programming language has the ability to treat functions as values, to pass them as arguments and to return a function from another function then it is said that  programming language has First Class Functions and the functions are called as First Class Citizens in that programming language.
 
