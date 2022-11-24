@@ -4,6 +4,50 @@
 ###### what you mean by Virtual DOM?
 ###### Define HOC, Why we should use HOC.
 ###### Define High order Function? why function are called first class citizen?
+
+If any programming language has the ability to treat functions as values, to pass them as arguments and to return a function from another function then it is said that  programming language has First Class Functions and the functions are called as First Class Citizens in that programming language.
+
+Functions are very important and powerful in JavaScript. JavaScript has all those abilities or features that are required to be a language having First Class Functions, hence functions are treated as First Class Citizens. Let’s look at all the abilities of functions being a First Class Citizen.
+
+###### Ability to treat functions as values
+`<script>
+  var greet = function() {
+    console.log("Welcome to GeeksforGeeks!");
+  }
+  greet();
+</script>`
+
+###### Ability to pass a function as arguments
+`<script>
+function teacher(){
+    return "Teacher";
+}
+  
+function student(){
+    return "Student";
+}
+  
+function greet(user){
+    console.log("Welcome", user());    
+}
+  
+// Prints "Welcome Teacher"
+var message = greet(teacher);
+  
+// Prints "Welcome Student" 
+var message = greet(student);
+</script>`
+
+###### Ability to return a function from another function
+`<script>
+var greet = function(){
+    return function(){
+    console.log("Welcome to GeeksforGeeks!");
+    }
+}
+greet()();
+</script>`
+
 ###### Why REACT contributer suggest to use functional component instead of class component?
 ###### How to prevent rerender of component in REACT? Difference bw useCallback and useMemo hooks?
 ###### What is Temporal Dead Zone in JS?
